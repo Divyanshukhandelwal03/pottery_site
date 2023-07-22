@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ceramics </title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+</head>
+<body>
+    <!-- ----------------------------------------NAVBAR----------------------------------------------------->
+    <nav class="nav nav_top">
+        <div class="logo">
+            <a href="index.html"><img src="images\logo1.png" width="200" height="100px"></a>
+        </div>
+        <div class="nav_side">
+            <a href="about.html">ABOUT US</a>
+            <a href="products.html">ALL PRODUCTS</a>
+            <a href="personalized.html">PERSONALIZE</a>
+            <a href="contact.html">CONTACT</a>
+        </div>
+    </nav>
+    <!-- ----------------------------------------FIRST CAROUSEL----------------------------------------------------->
+    <div class="slide">
+        <div class="slide_container">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                </ol>
+              
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="item_img">
+                            <img src="https://images.unsplash.com/photo-1520408222757-6f9f95d87d5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cG90dGVyeXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" alt="picture">
+                        </div>
+                     </div>
+
+                  <div class="item">
+                    <div class="item_img">
+                            <img src="https://cdn.pixabay.com/photo/2023/05/29/18/10/pottery-8026823_640.jpg" alt="picture">
+                        </div>
+                     </div>
+
+                  <div class="item">
+                    <div class="item_img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHHrHHoIHKSr3cFJ0MRaVdjLCJvgdHE0NC6g&usqp=CAU" alt="picture">
+                        </div>
+                     </div>
+
+                <div class="item">
+                    <div class="item_img">
+                            <img src="images\slideimg.jpeg" alt="picture">
+                        </div>
+                </div>
+
+                <div class="item">
+                    <div class="item_img">
+                            <img src="images\slideimg2.jpeg"
+                             alt="picture">
+                        </div>
+                </div>
+              
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </div>
+        <div class="slide_con">
+            <div class="slide_content">
+                <h2>FREE SHIPPING over $100*
+                    <br>
+                    <span>FOLLOW OUR OWN TRADITIONAL CULTURE</span>
+                </h2>
+                <div class="slide_btn">
+                    <a href="#">SHOP NOW</a>
+                </div>
+            </div>
+         </div>
+    </div>
+    <!-- --------------------------------------------SIDE----------------------------------------------------------->
+    <div class="side">
+        <div class="left">
+            <img src="data:image/jpeg;base64,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">
+        </div>
+        <div class="right">
+            <h2>TRY SOMETHING NEW!</h2>
+            <p>
+                 Discover our old Tradition with new design finds added every week. Find your new favorites.
+            </p>
+            <div class="side_btn">
+                <a href="#">SHOP NOW</a>
+            </div>
+        </div>
+
+    </div>
+    <!-- --------------------------------------------MAIN----------------------------------------------------------->
+    <div class="main">
+            <div class="main_content">
+                <h2>UP TO 30% OFF!
+                    <br>
+                    <span>Over 100 of our Favourite Designs are on Sale</span>
+                </h2>
+            </div>
+    </div>
+    <div class="product">
+        <h2>BEST SELLERS</h2>
+        <div class="product_container">
+
+            <div class="item">
+                <div class="item_img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw23Giyy5eeSsAcuNzTaXRD0hSrxV1K8dFlA&usqp=CAU">
+                </div>
+                <div class="item_content">
+                    <h3>THE FESTIVAL COLLECTION</h3>
+                 
+                    <br><br><br>
+                    <a href="#">CHOOSE OPTIONS</a>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item_img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9-dBYmznH9wWr_Ovtx9YlMPrlbINjxkZNIQ&usqp=CAU">
+                </div>
+                <div class="item_content">
+                    <h3>HOME DECORATION STUFF</h3>
+                    <br><br>
+                    <a href="#">CHOOSE OPTIONS</a>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item_img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRznceD1qIyPYEL7_44mSbH6PTzEAQ2uMsOjg&usqp=CAU">
+                </div>
+                <div class="item_content">
+                    <h3>ROYAL LOOK GIFT BOX</h3>
+                
+                    <br><br>
+                    <a href="#">CHOOSE OPTIONS</a>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item_img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqwAMwpr9-ZrNvsNcQGjmWC061cBLwatbV4Q&usqp=CAU">
+                </div>
+                <div class="item_content">
+                    <h3>SPECIALITY PRODUCT</h3>
+                   
+                    <br><br>
+                    <a href="#">CHOOSE OPTIONS</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- --------------------------------------------KEYPOINTS--------------------------------------------------------->
+    <div class="keypoint">
+        <h2>CHOOSE FROM</h2><br><br><br>
+        <div class="key_container">
+            <div class="key_img">
+                <img src="https://media.timeout.com/images/105474196/750/422/image.jpg">
+            </div>
+            <div class="key_content">
+                <li>Mugs</li>
+                <li>Decoration Item</li>
+                <li>Storage Containers</li>
+                <li>Gift Items</li>
+               
+            </div>   
+        </div>
+    </div>
+    <hr>
+    <!-- --------------------------------------------TEAM--------------------------------------------------------->
+    <div class="team">
+        <h2>Our Team</h2>
+        <div class="team_container">
+            <div class="team_video">
+                <video controls>
+                    <source src="images/pottery.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="team_content">
+                <p>pottery, one of the oldest and most widespread of the decorative arts, consisting of objects made of clay and hardened with heat. The objects made are commonly useful ones, such as vessels for holding liquids or plates or bowls from which food can be served.</p>
+                <br><p>We are a pioneering specialty design retailer and importer that began with a modest shop in the now-iconic North Philadelphia Italian Market in 1989; today, we employ more than 350 proud team members and have evolved into a community-driven enterprise with our five retail locations, pottering, import and e-commerce divisions.</p>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------------FEED--------------------------------------------------------->
+    <div class="feed">
+        <h2>WRITE A REVIEW</h2>
+        <div class="feed_form" method="post">
+        <form name="submit-googlesheet">
+            <input type="text" name="Name" placeholder="Name"><br>
+            <input type="email" name="Email" placeholder="Email ID"><br>
+            <input type="text" name="Number" placeholder="Contact Number"><br>
+            <textarea rows="5" cols="7" name="Review" placeholder="Write your review"></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+        </div>
+    </div>
+    <!-- --------------------------------------------FOOTER-------------------------------------------------------->
+    <footer>
+        <div class="footer_logo">
+            <a href="index.html"></a>
+        </div>
+        <div class="pages">  
+            <h3>Customer Care</h3>
+            <a href="about.html">About Us</a>|
+            <a href="products.html">Summer Sale</a>|
+            <a href="personalized.html">Catering</a>|
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="doc">
+            <h3>Documents</h3>
+            <a href="#">Privacy Policy</a>|
+            <a href="#">Terms of Use</a>|
+            <a href="#">Refund Policy</a>
+        </div>
+        <div class="social">
+            <h3>Follow Us</h3>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </div>
+        <div class="contact">
+            <h3>Contact Us</h3>
+            <a href="https://api.WhatsApp.com/send?phone=+910000000000" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+            <a href="tel: +910000000000"><i class="fa fa-phone" aria-hidden="true"></i></a>
+            <a href="mailto: roshnideyic365@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+        </div>
+        <hr>
+        <p>Copyright &copy; 2023 Ceremics. All rights reserved.</p>
+    </footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+ <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+<script type="text/javascript">
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzmY7HJmUEupsd8UBLj-aTxEsPcKQEWFYaxFA44IcIYrYCjanY1WcTF4zyKYXFQubtbTA/exec'
+            const form = document.forms['submit-googlesheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks you for your valuable feedback!"))
+                .catch(error => console.error('Error!', error.message))
+            })
+          
+</script>
+</body>
+</html>

@@ -1,1 +1,1 @@
-# pottery_site
+Culinary King is an e-commerce website on some of the most traditional art work out there (Front-end). This website has a huge collection of pottery item beautifully presented  using carousels and parallax scrolling CSS features flavored with Bootstrap with the contact page containing a google map attached to it the embedded API, thereby providing it with a cent percent professional look. 
